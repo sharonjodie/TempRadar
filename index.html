@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
-    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Welcome to TempRadar🦜</title>
   </head>
   <body>
@@ -23,7 +23,7 @@
             placeholder="Checking weather for..."
             required
             class="search-form-input"
-            id="search-form-input"
+            id="search-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -31,7 +31,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h2 class="weather-app-city" id="city">Melbourne</h2>
+            <h2 class="weather-app-city" id="city"></h2>
             <p class="weather-app-details">
               Tuesday 14:49, scattered clouds
               <br />
@@ -39,8 +39,8 @@
             </p>
           </div>
           <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">⛅</div>
-            <div class="weather-app-temperature">12</div>
+            <div class="weather-app-icon"></div>
+            <div class="weather-app-temperature" id="temperature">12</div>
             <div class="weather-app-temperature-unit">°C</div>
           </div>
         </div>
