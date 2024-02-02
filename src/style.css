@@ -87,7 +87,7 @@ main {
   font-weight: bold;
 }
 .weather-app-details strong {
-  color: #e81224;
+  color: #0078d7;
 }
 .weather-forecast {
   font-weight: bold;
@@ -101,7 +101,7 @@ main {
 .weather-forecast-date {
   font-size: 25px;
   font-weight: bold;
-  color: #0078d7;
+  color: black;
   opacity: 0.9;
 }
 .weather-forecast-icon {
