@@ -104,8 +104,14 @@ main {
   color: #0078d7;
   opacity: 0.9;
 }
+.weather-forecast-icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
 .weather-forecast-temperatures {
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 .weather-forecast-temperature-min {
   opacity: 0.8;
